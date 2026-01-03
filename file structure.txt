@@ -1,0 +1,41 @@
+src/
+│
+├── assets/                         # Static assets
+│   ├── images/
+│   ├── icons/
+│   └── resume.pdf
+│
+├── components/                     # Reusable UI parts
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── ThemeToggle.jsx
+│   ├── SectionCard.jsx             # Generic card wrapper
+│   └── SocialButton.jsx
+│
+├── sections/                       # Each section in your portfolio
+│   ├── About.jsx
+│   ├── Projects.jsx
+│   ├── Education.jsx
+│   ├── Achievements.jsx
+│   ├── Training.jsx
+│   ├── Certifications.jsx
+│   ├── TechStack.jsx
+│   ├── BeyondCoding.jsx
+│   └── Contacts.jsx
+│
+├── context/                        # Global state (like dark/light mode)
+│   └── ThemeContext.jsx
+│
+├── data/                           # Static JSON data for easy updates
+│   ├── projects.js
+│   ├── achievements.js
+│   ├── certifications.js
+│   ├── techstack.js
+│   └── contacts.js
+│
+├── styles/
+│   └── globals.css                 # Tailwind base + custom styles
+│
+├── App.jsx                         # Combines all sections
+├── main.jsx                        # React entry point
+└── index.css
