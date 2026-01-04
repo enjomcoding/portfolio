@@ -1,14 +1,13 @@
-import Hello from "./components/Hello";
-import './index.css'
+import Header from "./components/Header";
 
-function App() {
+
+
+export default function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline text-red-500">
-      Hello Tailwind!
-    </h1>
+    <div className="">
+      <Header />
+      <main className="max-w-6xl mx-auto px-100 py-10 space-y-12">
+      </main>
     </div>
   );
 }
-
-export default App;

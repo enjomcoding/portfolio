@@ -1,3 +1,12 @@
+/* 1. Import the font first */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Light mode default background */
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-[#F2F2F2] text-gray-900 transition-colors duration-300;
+}
